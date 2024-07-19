@@ -9,9 +9,9 @@ const config = {
     </>
   ),
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/Mohnish2004/education-hub.git',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/Mohnish2004/education-hub.git',
   footer: {
     component: CustomFooter,
 
