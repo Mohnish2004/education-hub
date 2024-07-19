@@ -1,8 +1,11 @@
 ## Get Started
-import YouTube from '/components/YouTube.tsx';
 import { useState } from 'react';
 import { Cards, Card } from 'nextra/components';
  
+import { Bleed } from 'nextra-theme-docs'
+ 
+
+
 
 export function Counter({ children }) {
   const [count, setCount] = useState(0)
@@ -16,7 +19,6 @@ export function Counter({ children }) {
   )
 }
 
-Below are the respective Course Modules, you can organize them in multiple ways, I put it here as longer cards with title/descriptions and tags. We can also add an image to the left as you had mentioned.  These cards will navigate to a different module when clicked
 
 
     <div href="https://drive.google.com/file/d/1VsvQMnvmrRT2SSzSvlvcSb-uOsD2stn1/view?usp=drive_link" class="block mt-2 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -257,11 +259,12 @@ Here's the Kumu content that you gave in tabular form:
 <br></br>
 ## Attaching Videos
 
-Attaching videos is very simple I created a Youtube component, so just call it and edit the Id="" to the videos id 
+Attaching videos is very simple I created a Youtube component, so just call it and edit the src="" from youtube>share>embed
 
 ```
-<YouTube id="28LbjlX_u4U"/>
+<<iframe width="900" height="515" src="https://www.youtube.com/embed/tYUC_Ni3lb4?si=COFBritgQMo5GFtl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"/>
 ```
 
-<YouTube id="28LbjlX_u4U"/>
+<iframe className="w-full" height="515" src="https://www.youtube.com/embed/tYUC_Ni3lb4?si=COFBritgQMo5GFtl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Below are the respective Course Modules, you can organize them in multiple ways, I put it here as longer cards with title/descriptions and tags. We can also add an image to the left as you had mentioned.  These cards will navigate to a different module when clicked
 
