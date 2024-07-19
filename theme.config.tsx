@@ -1,18 +1,22 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import CustomNavbar from './components/CustomNavbar';
+import CustomFooter from './components/Footer';
 
-const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+const config = {
+  logo: (
+    <>
+      <img src="/logo.png" alt="Logo" style={{ width: '3em', height: '3em' }} />
+
+    </>
+  ),
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
-  },
-}
+    component: CustomFooter,
 
-export default config
+  },
+  
+};
+
+export default config;

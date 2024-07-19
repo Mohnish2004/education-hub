@@ -1,7 +1,10 @@
+
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+
+  "modules": {
+    "title": "Modules",
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"

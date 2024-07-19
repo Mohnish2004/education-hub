@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.full-width {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: -10 !important;
+    margin-right: -10 !important;
+  }
+
+
+  /* components/CustomFooter.css */
+.custom-footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-menu li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-menu a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .footer-text p {
+    margin: 5px 0;
+    color: #6c757d;
+  }
+  
+  /* components/CustomNavbar.css */
+.custom-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 3em;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  
