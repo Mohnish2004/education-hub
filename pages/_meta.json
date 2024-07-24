@@ -1,18 +1,28 @@
 
 {
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "theme": {
+      "layout": "full"
+    }
+  },
 
-  "modules": {
-    "title": "Modules",
+  "documents": {
+    "title": "Documents",
     "type": "page"
   },
   "about": {
     "title": "About",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "full"
+    }
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "",
     "newWindow": true
   }
 }

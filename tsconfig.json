@@ -15,6 +15,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.mdx", "pages/index.mdx", "pages/index.mdx", "components/fullwidthlayout.jsx", "pages/index.mdx", "pages/index.mdx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.tsx", "pages/index.tsx", "pages/index.tsx", "components/fullwidthlayout.jsx", "pages/index.tsx", "pages/index.tsx"],
   "exclude": ["node_modules"]
 }
