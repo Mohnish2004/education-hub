@@ -6,5 +6,6 @@
       "type": "separator"
     },
   "predeveloper": "Pre Developer",
-  "preuser": "Pre User"
+  "preuser": "Pre User",
+  "user": "User"
 }

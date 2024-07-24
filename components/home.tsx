@@ -14,7 +14,7 @@ const Home = () => {
             </a> 
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/group.jpeg" className="rounded-md" alt="mockup"></img>
+            <img src="/group.jpeg" className="rounded-2xl" alt="mockup"></img>
         </div>                
     </div>
 

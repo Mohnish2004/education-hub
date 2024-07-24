@@ -31,6 +31,7 @@ const config = {
   },
   sidebar: {
     toggleButton: true,
+    defaultMenuCollapseLevel: true
   },
   project: {
     link: 'https://github.com/Mohnish2004/education-hub.git',
