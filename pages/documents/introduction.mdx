@@ -1,267 +1,53 @@
-## Get Started
+# Get Started
 import { useState } from 'react';
 import { Cards, Card } from 'nextra/components';
  
 import { Bleed } from 'nextra-theme-docs'
  
+##  Welcome to the Rosetta Commons Education Hub
 
+Welcome to the Rosetta Commons Education Hub! This is your go-to resource for all the educational materials and guides you need to master Rosetta Commons. Here, you'll find comprehensive documentation, tutorials, and tools designed to support your learning journey.
 
+## Main Modules
 
-export function Counter({ children }) {
-  const [count, setCount] = useState(0)
-  return (
-    
-<Cards>
-  <Card  title="Module 1" href="module1" />
-  <Card title="Module 2" href="module2" />
-  <Card  title="Module 3" href="module3" />
-</Cards>
-  )
-}
-
+Our Education Hub is structured around two main modules, tailored to meet different needs:
 
     <div href="https://drive.google.com/file/d/1VsvQMnvmrRT2SSzSvlvcSb-uOsD2stn1/view?usp=drive_link" class="block mt-2 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PyRosetta Bootcamp</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">PyRosetta Bootcamp is a week-long, immersive experience, targeted to new Rosetta Community members seeking to become more proficient users through Rosetta's python interface. It has been offered online and in-person.</p>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> Pre-Developer Module</h5>
+        <p class="font-normal text-gray-700 dark:text-gray-400">Aimed at those preparing to dive into development, this module covers foundational topics and practical exercises to build your coding skills.</p>
+        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">User</span>
+        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">PyRosetta</span>
+    </div>
+
+        <div href="https://drive.google.com/file/d/1VsvQMnvmrRT2SSzSvlvcSb-uOsD2stn1/view?usp=drive_link" class="block mt-2 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> Pre-User Module</h5>
+        <p class="font-normal text-gray-700 dark:text-gray-400">Designed for new users, this module provides an introduction to basic usage and key features of Rosetta Commons.</p>
         <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">User</span>
         <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">PyRosetta</span>
     </div>
 
 
-    <div href="https://drive.google.com/file/d/1h3Sa2Nht4eYbLm4jAF3pEhqLE4hALt6D/view?usp=drive_link" class="block mt-2 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta Forum</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Q&A messaging with Rosetta experts for troubleshooting and FAQ content.</p>
-        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Default</span>
-        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Default</span>
-    </div>
 
-    <div href="#" class="block mt-2 max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Post Baccalaureate Program (Postbacc)</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Scientists in this geographically-distributed post-baccalaureate program have the opportunity to participate in research using and developing the Rosetta Commons software.</p>
-        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Default</span>
-        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Default</span>
+## Key Features
 
-    </div>
+- **Markdown Formatting**: The entire site follows Markdown formatting, making it easy to read and write documentation.
+- **Light/Dark Mode**: Switch between light and dark mode to suit your reading preferences.
+- **Responsiveness**: Our site is designed to be fully responsive, providing an optimal viewing experience on any device.
+- **Custom Search**: Use the custom search feature to quickly find the information you need.
+- **Report a Bug**: If you encounter any issues, you can easily report a bug through the designated section.
 
+## Navigating the Education Hub
 
-
-## Alternate course modules layouts
-Below are the respective Course Modules but in a 2 column grid layout you can again modify them however you want or however jess makes the designs. These cards will navigate to a different module when clicked
-
-<div class="grid grid-cols-2 gap-2">
-    <span href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-    <img src="/logo.png" style={{ width: '5em', height: '5em' }}></img>
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta C++ Bootcamp</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Rosetta C++ Bootcamp is a week-long, immersive experience, targeted to Rosetta Community members seeking to become more proficient developers through Rosetta's C++ codebase. The boot camp has been offered online and in-person.</p>
-    </span>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta Workshop</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Rosetta Workshop is a week-long, immersive experience, targeted to new Rosetta users seeking to become more proficient through Rosetta's most accessible interfaces. It has been offered online and in-person.</p>
-    </div>
-
-    <div href="https://drive.google.com/file/d/1MRbnpucAGq6VohAFfJK5tMxDHLX3-Vmq/view?usp=sharing" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">REU Rosetta Summer Internship</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Interns in this geographically-distributed REU program have the opportunity to participate in research using the Rosetta Commons software over the academic summer break.</p>
-    </div>
-
-    <div href="https://drive.google.com/file/d/1dl3WrY5O6VD8H-K0CvF_wZH-4ellbjpo/view?usp=drive_link" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Design2Data</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Design2Data D2D is centered around a course-based undergraduate research experience that with the underlying scientific goal to facilitate academic crowd-sourcing to rapidly address protein design questions that would normally take isolated labs decades to answer.</p>
-    </div>
-
-    <div href="https://drive.google.com/file/d/1roRJL-NyZOUwnjbu7zdaF24tIS9Wed61/view?usp=drive_link" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta User Guide</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">This comprehensive user guide includes: (1) basic instructions on how to build/install the software, (2) useful flag lists for all Rosetta protocols, and (3) detailed descriptions to help users comprehend Rosetta protocols and their corresponding applications.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Video Playlist: Computational Protein Structure Prediction and Design</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">These videos were recorded from the advanced undergraduate and graduate course (540.414 and 540.614) taught at the Whiting School of Engineering of Johns Hopkins University in the Fall semester of 2014. The course included a workshop component based on the PyRosetta tutorials available at http://www.pyrosetta.org/tutorials.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta Tutorials, Demos, and Protocol Captures</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Demos are designed to guide users through sample procedures in computational modeling from the point of view of solving a specific problem. Introductory tutorials intended as a gentle introduction to Rosetta concepts, and using common functionality of Rosetta. The protocol captures show published solutions to problems that were addressed by members of the Rosetta community.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PyRosetta Tutorials</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">These notebook/lessons go step-by-step through the basics of PyRosetta, from an introduction to PyMOL, to accessing and manipulating protein structures in Rosetta, to development and design of simple AND ADVANCED protocols. Notebooks are in Jupyter and Google Colab formats.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">How Deep Learning is Changing Protein Structure Prediction and Design</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">This talk is aimed at graduate students, postdocs and faculty in biophysics. With the backdrop of the recent breakthrough in protein folding using deep learning, demonstrated by AlphaFold2 by DeepMind in CASP 14, I present some of the core building blocks and philosophies for the new, deep-learning approaches to protein structure prediction and design. I share some results in the context of my lab's research on using deep learning to predict antibody loop structures.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Boot Camp: COVID-19 Evolution and Structural Biology</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">June 2020 Boot Camp for undergraduate researchers held virtually to understand how the protein evolved during the first six months of the COVID-19 pandemic by exploring amino acid sequence and 3D atomic-level structure using various structural bioinformatics tools.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Foldit-to-PyRosetta: Intro Project Resources & Workflow</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Follow along and explore the steps of this interactive workflow and resource hub by using Foldit, PyMol, and PyRosetta to evaluate a protein system that you are interested in! This workflow will give you the opportunity to investigate mutations in a protein system that you think might optimize, disrupt, or affect the system in some capacity!</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Learn, Practice, and Discover: Design Antiviral Proteins to Combat COVID-19</h5>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Foldit Education Mode</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Education Mode is a self-guided game tutorial series that covers many common topics in protein biochemistry classes.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta Wiki</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">The Rosetta Wiki has internal links to the Github, Meeting Notes, Community Resources.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Computational Structural Biology</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">During the course we will explore concepts and algorithms that enable computational modeling of biological molecules, in both theory and practice. In this framework, We will learn to use Rosetta, one of the leading protein modeling suites. These methods are applied in predicting protein structure, docking multiple proteins into complexes, designing new proteins for medical or industrial purposes, and other cutting-edge scientific research.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Computational Structural And Chemical Biology</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Theoretical and practical aspects of protein sequence alignments, secondary structure prediction, comparative modeling, protein-protein and protein-ligand docking. Structure-based drug design, virtual quantitative structure activity relations, cheminformatics, and screening, pharmacophore mapping in therapeutic development. This course includes a laboratory section.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta Slack</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Messaging and communication channel for members with sub-channels spanning virtually all subdisciplines. Troubleshooting and announcements are the most common genres of communication here. Community and career development groups also have a home here.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Foldit Discord</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Community and communication channel for Foldit where resources and insight are shared. This is an essential resource for learning Foldit.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pre-College Rosetta Internship Opportunity (PCR-IO)</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">High school students are invited to join the Siegel Lab and IPD  to conduct research with scientists at the University of Washington in Seattle or the University of California, Davis. Together, we will design new proteins that address challenges in food, energy, and health.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Foldit Teaching & Learning Resource Manual</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">This guide or manual aims to help teachers and learners get started navigating Foldit versions: Foldit Education Mode, Foldit (the normal version), and Foldit Standalone. There are linked activities embedded in the guide that lead students through navigating current, citizen science COVID design puzzles.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Foldit player wiki</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Community resource written by Foldit players, for Foldit players. Note: The Foldit team does not moderate the Wiki and it can be edited by the public, so please read with a grain of salt and reach out with questions.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Foldit Lab Reports (YouTube)</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Foldit lab reports are monthly YouTube installments of updates from the Foldit design review and testing team at the Institute for Protein Design. In these short videos (5-15 minutes), Dr. Brian Koepnick will take you on a tour of top player designs and any relevant wet-lab testing results or recent findings that inform Foldit efforts. Teachers: this is great way to introduce your students to the world of protein modeling! Enjoy!</p>
-    </div>
-
-    <div href="#" class="block mt-2
-
- max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cheeseburger Talk (Intro to Rosetta's C++ structure and major classes)</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">"Rosetta is a cheeseburger" is a many-times-recorded talk that goes over the structure of the Rosetta C++ codebase and the major classes. An extended version with algorithms exists too.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lifecycle of a Bug</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">This talk goes over the process by which a subtle code bug was found and fixed.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta101</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">Rosetta101 is a talk that goes over the Big Ideas behind how Rosetta works, considering the major algorithms from a broad point of view.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blueprint builder protocol</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">This paper is a blueprint builder protocol written with step-by-step instructions. Rosetta basics are introduced as well.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pre-College Rosetta Internship Opportunity Workflow and Resource Hub</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">This module workflow will give you the opportunity to investigate mutations in a protein system that you think might optimize, disrupt, or affect the system in some capacity! In the guides and protocols linked, you'll see that we are working with a SARS-CoV2 miniprotein binder. However, these resources can easily be adapted to work with other protein systems.</p>
-    </div>
-
-    <div href="#" class="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Protein Engineering and Design</h5>
-        <p class="font-normal text-gray-700 dark:text-gray-400">This repository contains lecture slides, coding notebooks, recordings, and videos for courses developed by Parisa Hosseinzadeh for protein engineering and design course.</p>
-    </div>
-
-</div>
-
-
-
-
-<Counter>**Clicks**: </Counter>
-
-
-## Tabular
- 
- 
-export function Counter1({ children }) {
-  const [count, setCount] = useState(0)
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      {children}
-      {count}
-    </button>
-  )
-}
-
-
-
-Here's the Kumu content that you gave in tabular form:
-
-| Syntax            |        Description        |                               Test Text |
-| :---------------- | :-----------------------: | --------------------------------------: |
-| Video Playlist    | Online content            | These videos were recorded from the advanced undergraduate and graduate course (540.414 and 540.614) taught at the Whiting School of Engineering of Johns Hopkins University in the Fall semester of 2014. The course included a workshop component based on the PyRosetta tutorials available at http://www.pyrosetta.org/tutorials. |
-| User              | Rosetta-experience level  |                                   Rosetta101 |
-| Rosetta101        | Class                     | Rosetta101 is a talk that goes over the Big Ideas behind how Rosetta works, considering the major algorithms from a broad point of view. |
-| Rosetta Workshop  | Bootcamp or workshop      | Rosetta Workshop is a week-long, immersive experience, targeted to new Rosetta users seeking to become more proficient through Rosetta's most accessible interfaces. It has been offered online and in-person. |
-| Rosetta Wiki      | Software documentation    | The Rosetta Wiki has internal links to the Github, Meeting Notes, Community Resources |
-| Rosetta User Guide| Software documentation    | This comprehensive user guide includes: (1) basic instructions on how to build/install the software, (2) useful flag lists for all Rosetta protocols, and (3) detailed descriptions to help users comprehend Rosetta protocols and their corresponding applications. |
-| Rosetta Tutorials, Demos, and Protocol Captures | Online content | Demos are designed to guide users through sample procedures in computational modeling from the point of view of solving a specific problem. Introductory tutorials intended as a gentle introduction to Rosetta concepts, and using common functionality of Rosetta. The protocol captures show published solutions to problems that were addressed by members of the Rosetta community. |
-| Rosetta Slack     | Group                     | Messaging and communication channel for members with sub-channels spanning virtually all subdisciplines. Troubleshooting and announcements are the most common genres of communication here. Community and career development groups also have a home here. |
-| Rosetta Forum     | Online content            | Q&A messaging with Rosetta experts for troubleshooting and FAQ content |
-| Rosetta C++ Bootcamp | Bootcamp or workshop   | Rosetta C++ Bootcamp is a week-long, immersive experience, targeted to Rosetta Community members seeking to become more proficient developers through Rosetta's C++ codebase. The boot camp has been offered online and in-person. |
-| REU Rosetta Summer Internship | Program       | Interns in this geographically-distributed REU program have the opportunity to participate in research using the Rosetta Commons software over the academic summer break. |
-| PyRosetta Tutorials | Class                   | These notebook/lessons go step-by-step through the basics of PyRosetta, from an introduction to PyMOL, to accessing and manipulating protein structures in Rosetta, to development and design of simple AND ADVANCED protocols. Notebooks are in Jupyter and Google Colab formats. |
-| PyRosetta Bootcamp | Bootcamp or workshop     | PyRosetta Bootcamp is a week-long, immersive experience, targeted to new Rosetta Community members seeking to become more proficient users through Rosetta's python interface. It has been offered online and in-person. |
-| Protein Engineering and Design | Class        | This repository contains lecture slides, coding notebooks, recordings, and videos for courses developed by Parisa Hosseinzadeh for protein engineering and design" course |
-| Pre-user          | Rosetta-experience level  |                                   Rosetta101 |
-| Pre-developer     | Rosetta-experience level  |                                   Rosetta101 |
-| Pre-College Rosetta Internship Opportunity Workflow and Resource Hub | Bootcamp or workshop | This module workflow will give you the opportunity to investigate mutations in a protein system that you think might optimize, disrupt, or affect the system in some capacity! In the guides and protocols linked, you'll see that we are working with a SARS-CoV2 miniprotein binder. However, these resources can easily be adapted to work with other protein systems |
-| Pre-College Rosetta Internship Opportunity PCR-IO | Program | High school students are invited to join the Siegel Lab and IPD to conduct research with scientists at the University of Washington in Seattle or the University of California, Davis. Together, we will design new proteins that address challenges in food, energy, and health. |
-| Post Baccalaureate Program (Postbacc) | Program | Scientists in this geographically-distributed post-baccalaureate program have the opportunity to participate in research using and developing the Rosetta Commons software |
-| Lifecycle of a Bug | Class                    | This talk goes over the process by which a subtle code bug was found and fixed. |
-| Learn, Practice, and Discover: Design Antiviral Proteins to Combat COVID-19 | Class |                                   Rosetta101 |
-| How Deep Learning is Changing Protein Structure Prediction and Design | Online content | This talk is aimed at graduate students, postdocs and faculty in biophysics. With the backdrop of the recent breakthrough in protein folding using deep learning, demonstrated by AlphaFold2 by DeepMind in CASP 14, I present some of the core building blocks and philosophies for the new, deep-learning approaches to protein structure prediction and design. I share some results in the context of my lab's research on using deep learning to predict antibody loop structures. |
-| Foldit-to-PyRosetta: Intro Project Resources & Workflow | Online content | Follow along and explore the steps of this interactive workflow and resource hub by using Foldit, PyMol, and PyRosetta to evaluate a protein system that you are interested in! This workflow will give you the opportunity to investigate mutations in a protein system that you think might optimize, disrupt, or affect the system in some capacity! |
-| Foldit Teaching & Learning Resource Manual | Online content | This guide or manual aims to help teachers and learners get started navigating Foldit versions: Foldit Education Mode, Foldit (the normal version), and Foldit Standalone. There are linked activities embedded in the guide that lead students through navigating current, citizen science COVID design puzzles. |
-| Foldit player wiki | Online content           | Community resource written by Foldit players, for Foldit players. Note: The Foldit team does not moderate the Wiki and it can be edited by the public, so please read with a grain of salt and reach out with questions. |
-| Foldit Lab Reports (YouTube) | Online content | Foldit lab reports are monthly YouTube installments of updates from the Foldit design review and testing team at the Institute for Protein Design. In these short videos (5-15 minutes), Dr. Brian Koepnick will take you on a tour of top player designs and any relevant wet-lab testing results or recent findings that inform Foldit efforts. Teachers: this is great way to introduce your students to the world of protein modeling! Enjoy! |
-| Foldit Education Mode | Game                  | Education Mode is a self-guided game tutorial series that covers many common topics in protein biochemistry classes |
-| Foldit Discord     | Group                    | Community and communication channel for Foldit where resources and insight are shared. This is an essential resource for learning Foldit. |
-| Developer          | Rosetta-experience level |                                   Rosetta101 |
-| Design2Data        | Program                  | Design2Data D2D is centered around a course-based undergraduate research experience that with the underlying scientific goal to facilitate academic crowd-sourcing to rapidly address protein design questions that would normally take isolated labs decades to answer. |
-| Computational Structural Biology | Class      | During the course we will explore concepts and algorithms that enable computational modeling of biological molecules, in both theory and practice. In this framework, We will learn to use Rosetta, one of the leading protein modeling suites. These methods are applied in predicting protein structure, docking multiple proteins into complexes, designing new proteins for medical or industrial purposes, and other cutting-edge scientific research. |
-| Computational Structural And Chemical Biology | Class | Theoretical and practical aspects of protein sequence alignments, secondary structure prediction, comparative modeling, protein-protein and protein-ligand docking. Structure-based drug design, virtual quantitative structure activity relations, cheminformatics, and screening, pharmacophore mapping in therapeutic development. This course includes a laboratory section. |
-| Cheeseburger Talk (Intro to Rosetta's C++ structure and major classes) | Class | "Rosetta is a cheeseburger" is a many-times-recorded talk that goes over the structure of the Rosetta C++ codebase and the major classes. An extended version with algorithms exists too. |
-| Boot Camp: COVID-19 Evolution and Structural Biology | Class | June 2020 Boot Camp for undergraduate researchers held virtually to understand how the protein evolved during the first six months of the COVID-19 pandemic by exploring amino acid sequence and 3D atomic-level structure using various structural bioinformatics tools. |
-| Blueprint builder protocol | Online content   | This paper is a blueprint builder protocol written with step-by-step instructions. Rosetta basics are introduced as well. |
-
-
+This documentation is a flexible and user-friendly platform that allows us to present information in a clear and organized manner. Here’s a quick guide on how to navigate through the site:
 <br></br>
-## Attaching Videos
 
-Attaching videos is very simple I created a Youtube component, so just call it and edit the src="" from youtube>share>embed
+<iframe src="https://scribehow.com/embed/Navigate_and_access_specific_sections_on_a_website__Jyi1KGnUTVmhhQ9LzkRNvg" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
-```
-<<iframe width="900" height="515" src="https://www.youtube.com/embed/tYUC_Ni3lb4?si=COFBritgQMo5GFtl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"/>
-```
 
-<iframe className="w-full" height="315" src="https://www.youtube.com/embed/28LbjlX_u4U?si=tPBLTY8kwtXx_MOS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+We hope you find the Rosetta Commons Education Hub helpful and easy to navigate. If you have any questions or need further assistance, feel free to reach out through the contact section.
+
+Happy learning!
+
+
+
