@@ -48,7 +48,14 @@ const ExploreTopics = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredCards.map((card) => (
-          <div key={card.id} className="bg-gray-200 h-40 rounded-lg"></div>
+          <div key={card.id}>
+<div className="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rosetta Workshop</h5>
+        <p className="font-normal text-gray-700 dark:text-gray-400">Rosetta Workshop is a week-long, immersive experience, targeted to new Rosetta users seeking to become more proficient through Rosetta's most accessible interfaces. It has been offered online and in-person.</p>
+    </div>
+
+
+          </div>
         ))}
       </div>
     </div>
