@@ -32,7 +32,7 @@ const Home = () => {
 
     <div className="max-w-7xl mt-6 mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
   <div className="max-w-4xl mx-auto text-center mb-5 lg:mb-5">
-    <h2 className="text-4xl font-bold md:text-4xl md:leading-tight dark:text-white">One Tool, Many Users</h2>
+    <h2 className="lg:text-4xl md: text-3xl sm:text-5xl font-bold md:text-4xl md:leading-tight dark:text-white">One Tool, Many Users</h2>
   </div>
 
   <div className="grid sm:grid-cols-7 gap-8">
@@ -73,7 +73,7 @@ const Home = () => {
       Getting Started
     </h2>
     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
-      <p className="mb-4 sm:mb-0 max-w-3xl leading-none tracking-tight font-normal text-gray-500 dark:text-gray-100 md:text-lg">
+      <p className="mb-4 sm:mb-0 max-w-3xl leading-tight tracking-light font-normal text-gray-500 dark:text-gray-100 md:text-lg">
         New to Rosetta Commons? Check out the getting started guides that contain an introduction to Rosetta Common’s main concepts and links to and resources.
       </p>
       <a
