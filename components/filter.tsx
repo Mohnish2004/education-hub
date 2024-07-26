@@ -16,9 +16,11 @@ const cards = [
 
 const ExploreTopics = () => {
   const [selectedTopic, setSelectedTopic] = useState('All');
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const handleTopicClick = (topic) => {
     setSelectedTopic(topic);
+    setDropdownOpen(false); // Close dropdown after selecting a topic
   };
 
   const filteredCards = selectedTopic === 'All' ? cards : cards.filter(card => card.topic === selectedTopic);
@@ -27,11 +29,12 @@ const ExploreTopics = () => {
     <div className="max-w-6xl mx-auto p-6">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-3xl font-bold">Explore Topics</h1>
-        <a href="/documents/introduction" className="text-blue-500 hover:underline">View All</a>
+        <a href="/documents/introduction" className=" text-[#196A76] hover:underline">View All</a>
       </div>
-      <div className="flex space-x-4 mb-6">
+      {/* Buttons for larger screens */}
+      <div className="hidden sm:flex space-x-4 mb-6">
         <button
-          className={`px-4 py-2 font-semibold ${selectedTopic === 'All' ? 'border-b-2 border-black' : ''}`}
+          className={`px-4 py-2 font-semibold ${selectedTopic === 'All' ? 'bg-[#F2FBFC] text-[#196A76] rounded-full' : ''}`}
           onClick={() => handleTopicClick('All')}
         >
           All
@@ -39,22 +42,48 @@ const ExploreTopics = () => {
         {topics.map((topic) => (
           <button
             key={topic}
-            className={`px-4 py-2 font-semibold ${selectedTopic === topic ? 'border-b-2 border-black' : ''}`}
+            className={`px-4 py-2 font-semibold ${selectedTopic === topic ? 'bg-[#F2FBFC] text-[#196A76] rounded-full' : ''}`}
             onClick={() => handleTopicClick(topic)}
           >
             {topic}
           </button>
         ))}
       </div>
+      {/* Dropdown for smaller screens */}
+      <div className="sm:hidden mb-6">
+        <button
+          className="px-4 py-2 font-semibold bg-[#F2FBFC] text-[#196A76] rounded-full w-full text-left"
+          onClick={() => setDropdownOpen(!dropdownOpen)}
+        >
+          {selectedTopic} {dropdownOpen ? '▲' : '▼'}
+        </button>
+        {dropdownOpen && (
+          <div className="mt-2 flex flex-col space-y-2">
+            <button
+              className={`px-4 py-2 font-semibold ${selectedTopic === 'All' ? 'bg-[#F2FBFC] text-[#196A76] rounded-full' : ''}`}
+              onClick={() => handleTopicClick('All')}
+            >
+              All
+            </button>
+            {topics.map((topic) => (
+              <button
+                key={topic}
+                className={`px-4 py-2 font-semibold ${selectedTopic === topic ? 'bg-[#F2FBFC] text-[#196A76] rounded-full' : ''}`}
+                onClick={() => handleTopicClick(topic)}
+              >
+                {topic}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredCards.map((card) => (
           <div key={card.id}>
-<div className="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{card.topic}</h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">{card.description}</p>
-    </div>
-
-
+            <div className="block mt-2 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{card.topic}</h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">{card.description}</p>
+            </div>
           </div>
         ))}
       </div>
