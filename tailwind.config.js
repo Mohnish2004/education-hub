@@ -6,11 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
  
   ],
+  darkMode: 'class',
   theme: {
-    extend: {  darkMode: 'class'
-  },
-  color: {
-    primary: '#078B9F',
+    color: {
+      primary: '#078B9F',
+
   },
 
   },

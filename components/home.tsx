@@ -1,22 +1,31 @@
 const Home = () => {
     return (
 <section className="">
-    <div className="grid max-w-screen-xl px-3 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-10 place-self-center lg:col-span-7">
-            <h1 className="max-w-xl mb-4 text-6xl text-[#102349] font-bold tracking-tight leading-none md:text-6xl xl:text-6xl dark:text-white">Learn Protein Modeling</h1>
-            <p className="max-w-md mb-6 font-light text-gray-500 tracking-tight leading-tight lg:mb-8 md:text-md lg:text-md dark:text-gray-400">Dive into a wide range of educational resources, tutorials, and community-driven content designed to help you master Rosetta's powerful tools and applications.</p>
-            <a href="/documents/introduction" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base text-white font-medium text-center bg-[#078B9F] rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                Get started
-                <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-            <a href="/about" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-[#078B9F] border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                Learn more
-            </a> 
-        </div>
-        <div className="mt-10 mx-auto lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/group.jpeg" className="rounded-2xl" alt="mockup"></img>
-        </div>                
+<div className="grid max-w-screen-xl px-3 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+  <div className="place-self-center lg:col-span-7">
+    <h1 className="max-w-full mb-4 text-6xl text-[#102349] font-bold tracking-tight leading-tight md:text-6xl xl:text-6xl dark:text-[#ffffff]">
+      Learn Protein Modeling
+    </h1>
+    <p className="max-w-full mb-6 font-light text-gray-500 tracking-tight leading-tight lg:mb-8 md:text-md lg:text-md dark:text-gray-400">
+      Dive into a wide range of educational resources, tutorials, and community-driven content designed to help you master Rosetta's powerful tools and applications.
+    </p>
+    <div className="flex flex-wrap gap-3">
+      <a href="/documents/introduction" className="inline-flex items-center justify-center px-5 py-3 text-base text-white font-medium bg-[#078B9F] rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+        Get started
+        <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
+        </svg>
+      </a>
+      <a href="/about" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-[#078B9F] border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+        Learn more
+      </a>
     </div>
+  </div>
+  <div className="mt-10 mx-auto lg:mt-0 lg:col-span-5 lg:flex">
+    <img src="/group.jpeg" className="rounded-2xl" alt="mockup"></img>
+  </div>
+</div>
+
 <br></br>
 <br></br>
 
@@ -59,17 +68,17 @@ const Home = () => {
 
 
 <div className="py-2 px-4 mb-20 mt-10 max-w-screen-7xl sm:py-1 lg:px-1">
-  <div className="mx-auto max-w-screen-lg text-left p-6 bg-[#F2FBFC] rounded-2xl">
-    <h2 className="mb-10 text-4xl tracking-tight font-extrabold leading-tight text-[#196A76] dark:text-white">
+  <div className="mx-auto max-w-screen-lg text-left p-6 bg-[#F2FBFC] dark:bg-[#052529] rounded-2xl">
+    <h2 className="mb-10 text-4xl tracking-tight font-extrabold leading-tight text-[#196A76] dark:text-[#ffffff]">
       Getting Started
     </h2>
     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
-      <p className="mb-4 sm:mb-0 max-w-3xl leading-none tracking-tight font-normal text-gray-500 dark:text-gray-400 md:text-lg">
+      <p className="mb-4 sm:mb-0 max-w-3xl leading-none tracking-tight font-normal text-gray-500 dark:text-gray-100 md:text-lg">
         New to Rosetta Commons? Check out the getting started guides that contain an introduction to Rosetta Common’s main concepts and links to and resources.
       </p>
       <a
         href="/documents/introduction"
-        className="text-white bg-[#078B9F] hover:bg-gray-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-4 sm:mt-0 sm:ml-4 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
+        className="text-white bg-[#078B9F] dark:bg-[#078B9F] dark:white hover:bg-gray-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-4 sm:mt-0 sm:ml-4 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
       >
         View Guides
       </a>

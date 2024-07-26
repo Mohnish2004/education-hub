@@ -19,22 +19,13 @@ const config = {
   docsRepositoryBase: 'https://github.com/Mohnish2004/education-hub.git',
   primaryHue: 200,
   primarySaturation: 60,
-  themeSwitch: {
-    useOptions() {
-      return {
-        light: 'Light',
-        dark: 'Dark',
-        system: 'System'
-      }
-    }
-  },
+
   useNextSeoProps() {
     return {
       titleTemplate: '%s – Education Hub'
     }
   },
   sidebar: {
-    toggleButton: true,
     defaultMenuCollapseLevel: true
   },
   project: {
