@@ -3,12 +3,8 @@ const Home = () => {
 <section className="">
 <div className="grid max-w-screen-xl px-3 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
   <div className="place-self-center lg:col-span-7">
-    <h1 className="max-w-full mb-4 text-6xl text-[#102349] font-bold tracking-tight leading-tight md:text-6xl xl:text-6xl dark:text-[#ffffff]">
-      Learn Protein Modeling
-    </h1>
-    <p className="max-w-full mb-6 font-light text-gray-500 tracking-tight leading-tight lg:mb-8 md:text-md lg:text-md dark:text-gray-400">
-      Dive into a wide range of educational resources, tutorials, and community-driven content designed to help you master Rosetta's powerful tools and applications.
-    </p>
+  <h1 className="max-w-xl mb-4 text-6xl text-[#102349] font-bold tracking-tight leading-none md:text-6xl xl:text-6xl dark:text-white">Learn Protein Modeling</h1>
+            <p className="max-w-md mb-6 font-light text-gray-500 tracking-tight leading-tight lg:mb-8 md:text-md lg:text-md dark:text-gray-400">Dive into a wide range of educational resources, tutorials, and community-driven content designed to help you master Rosetta's powerful tools and applications.</p>
     <div className="flex flex-wrap gap-3">
       <a href="/documents/introduction" className="inline-flex items-center justify-center px-5 py-3 text-base text-white font-medium bg-[#078B9F] rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
         Get started
@@ -73,7 +69,7 @@ const Home = () => {
       Getting Started
     </h2>
     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
-      <p className="mb-4 sm:mb-0 max-w-3xl leading-tight tracking-light font-normal text-gray-500 dark:text-gray-100 md:text-lg">
+      <p className="mb-4 sm:mb-0 max-w-3xl leading-light tracking-light font-normal text-gray-500 dark:text-gray-100 md:text-lg">
         New to Rosetta Commons? Check out the getting started guides that contain an introduction to Rosetta Common’s main concepts and links to and resources.
       </p>
       <a
