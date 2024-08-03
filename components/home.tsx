@@ -2,8 +2,8 @@ const Home = () => {
     return (
 <section className="">
 <div className="grid max-w-screen-xl px-3 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-  <div className="place-self-center lg:col-span-7">
-  <h1 className="max-w-xl mb-4 text-6xl text-[#102349] font-bold tracking-tight leading-none md:text-6xl xl:text-6xl dark:text-white">Learn Protein Modeling</h1>
+  <div className="place-self-center lg:col-span-5">
+  <h1 className="max-w-xl mb-4 text-7xl text-[#102349] font-bold tracking-tight leading-none md:text-7xl xl:text-7xl dark:text-white">Learn Protein Modeling</h1>
             <p className="max-w-md mb-6 font-light text-gray-500 tracking-tight leading-tight lg:mb-8 md:text-md lg:text-md dark:text-gray-400">Dive into a wide range of educational resources, tutorials, and community-driven content designed to help you master Rosetta's powerful tools and applications.</p>
     <div className="flex flex-wrap gap-3">
       <a href="/documents/introduction" className="inline-flex items-center justify-center px-5 py-3 text-base text-white font-medium bg-[#078B9F] rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
@@ -17,9 +17,9 @@ const Home = () => {
       </a>
     </div>
   </div>
-  <div className="mt-10 mx-auto lg:mt-0 lg:col-span-5 lg:flex">
-    <img src="/group.jpeg" className="rounded-2xl" alt="mockup"></img>
-  </div>
+  <div className="mt-10 mx-auto lg:mt-0 lg:col-span-7 lg:flex">
+  <img src="/test2.svg" className="rounded-2xl w-full h-200 max-w-4xl" alt="mockup"></img>
+</div>
 </div>
 
 <br></br>

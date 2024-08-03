@@ -19,10 +19,11 @@
       "layout": "full"
     }
   },
-  "contact": {
-    "title": "Contact ↗",
+  "help": {
+    "title": "Help Center",
     "type": "page",
-    "href": "",
-    "newWindow": true
+    "theme": {
+      "layout": "full"
+    }
   }
 }
