@@ -12,15 +12,8 @@
     "title": "Documents",
     "type": "page"
   },
-  "about": {
-    "title": "About",
-    "type": "page",
-    "theme": {
-      "layout": "full"
-    }
-  },
   "help": {
-    "title": "Help Center",
+    "title": "Help",
     "type": "page",
     "theme": {
       "layout": "full"
