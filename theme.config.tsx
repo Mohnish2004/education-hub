@@ -25,9 +25,6 @@ const config = {
       titleTemplate: '%s – Education Hub'
     }
   },
-  sidebar: {
-    defaultMenuCollapseLevel: true
-  },
   project: {
     link: 'https://github.com/Mohnish2004/education-hub.git',
   },
