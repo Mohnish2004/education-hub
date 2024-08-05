@@ -24,24 +24,24 @@ const config = {
   primaryHue: 200,
   primarySaturation: 60,
 
-  // head: () => {
-  //   const { asPath, defaultLocale, locale } = useRouter()
-  //   const { frontMatter } = useConfig()
-  //   const url =
-  //     'https://my-app.com' +
-  //     (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
+  head: () => {
+    const { asPath, defaultLocale, locale } = useRouter()
+    const { frontMatter } = useConfig()
+    const url =
+      'https://my-app.com' +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
  
-  //   return (
-  //     <>
-  //       <meta property="og:url" content={url} />
-  //       <meta property="og:title" content={frontMatter.title || 'Rosetta Commons'} />
-  //       <meta
-  //         property="og:description"
-  //         content={frontMatter.description || 'Education Hub'}
-  //       />
-  //     </>
-  //   )
-  // },
+    return (
+      <>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontMatter.title || 'Rosetta Commons'} />
+        <meta
+          property="og:description"
+          content={frontMatter.description || 'Education Hub'}
+        />
+      </>
+    )
+  },
   project: {
     link: 'https://github.com/Mohnish2004/education-hub.git',
   },
