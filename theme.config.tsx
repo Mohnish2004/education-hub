@@ -45,7 +45,31 @@ const config = {
   project: {
     link: 'https://github.com/Mohnish2004/education-hub.git',
   },
-  
+  navbar:{
+    items: [
+      {
+        type: 'doc',
+        href: '/',
+        label: 'Home',
+      },
+      {
+        type: 'doc',
+        href: '/documents/introduction',
+        label: 'Modules',
+      },
+      {
+        type: 'doc',
+        href: '/documents/faq',
+        label: 'FAQ',
+      },
+      {
+        type: 'doc',
+        href: '/documents/about',
+        label: 'About',
+      },
+    ],
+
+  }	,
 
   footer: {
     text: (
