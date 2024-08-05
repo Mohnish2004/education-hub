@@ -45,6 +45,8 @@ const config = {
   project: {
     link: 'https://github.com/Mohnish2004/education-hub.git',
   },
+  
+
   footer: {
     text: (
 <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">

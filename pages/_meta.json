@@ -1,4 +1,3 @@
-
 {
   "index": {
     "title": "Home",
@@ -12,12 +11,12 @@
     "type": "page"
   },
   "help": {
-    "title": "Help Center",
+    "title": "Help",
     "type": "page",
     "theme": {
       "layout": "full"
     }
-  },   
+  },
   "release": {
     "title": "Release",
     "type": "page",
