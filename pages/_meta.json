@@ -17,5 +17,12 @@
     "theme": {
       "layout": "full"
     }
+  },   
+  "release": {
+    "title": "Release",
+    "type": "page",
+    "theme": {
+      "layout": "full"
+    }
   }
 }
